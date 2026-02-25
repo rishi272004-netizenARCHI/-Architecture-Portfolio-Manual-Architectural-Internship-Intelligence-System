@@ -1,0 +1,1823 @@
+  {
+    number: 3,
+    title: "Portfolio Strategy Engineering",
+    description: "",
+    chapters: [
+      {
+        number: 26,
+        title: "Defining Portfolio Archetypes",
+        content: `27. Corporate-Oriented Portfolio Structure
+28. Boutique-Oriented Portfolio Structure
+29. Sustainable Portfolio Structure
+30. Interior Portfolio Structure
+31. Urban Portfolio Structure
+32. Portfolio Objective Definition
+33. Project Selection Logic
+34. Portfolio Editing Discipline
+35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 27,
+        title: "Corporate-Oriented Portfolio Structure",
+        content: `28. Boutique-Oriented Portfolio Structure
+29. Sustainable Portfolio Structure
+30. Interior Portfolio Structure
+31. Urban Portfolio Structure
+32. Portfolio Objective Definition
+33. Project Selection Logic
+34. Portfolio Editing Discipline
+35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 28,
+        title: "Boutique-Oriented Portfolio Structure",
+        content: `29. Sustainable Portfolio Structure
+30. Interior Portfolio Structure
+31. Urban Portfolio Structure
+32. Portfolio Objective Definition
+33. Project Selection Logic
+34. Portfolio Editing Discipline
+35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 29,
+        title: "Sustainable Portfolio Structure",
+        content: `30. Interior Portfolio Structure
+31. Urban Portfolio Structure
+32. Portfolio Objective Definition
+33. Project Selection Logic
+34. Portfolio Editing Discipline
+35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 30,
+        title: "Interior Portfolio Structure",
+        content: `31. Urban Portfolio Structure
+32. Portfolio Objective Definition
+33. Project Selection Logic
+34. Portfolio Editing Discipline
+35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 31,
+        title: "Urban Portfolio Structure",
+        content: `32. Portfolio Objective Definition
+33. Project Selection Logic
+34. Portfolio Editing Discipline
+35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 32,
+        title: "Portfolio Objective Definition",
+        content: `33. Project Selection Logic
+34. Portfolio Editing Discipline
+35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 33,
+        title: "Project Selection Logic",
+        content: `34. Portfolio Editing Discipline
+35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 34,
+        title: "Portfolio Editing Discipline",
+        content: `35. Portfolio Narrative Engineering
+36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 35,
+        title: "Portfolio Narrative Engineering",
+        content: `36. Balancing Concept and Technical Depth
+37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 36,
+        title: "Balancing Concept and Technical Depth",
+        content: `37. Content Density Control
+38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 37,
+        title: "Content Density Control",
+        content: `38. Page Count Engineering
+39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 38,
+        title: "Page Count Engineering",
+        content: `39. Portfolio Sequencing Models
+40. First Project Strategy`
+      },
+      {
+        number: 39,
+        title: "Portfolio Sequencing Models",
+        content: `40. First Project Strategy`
+      },
+      {
+        number: 40,
+        title: "First Project Strategy",
+        content: ``
+      }
+    ]
+  },
+  {
+    number: 4,
+    title: "Macro Structure of the Portfolio Document",
+    description: "",
+    chapters: [
+      {
+        number: 41,
+        title: "Cover Page Architecture",
+        content: `42. Resume Integration Strategy
+43. Index Structuring Logic
+44. Project Order Framework
+45. Project Hierarchy Strategy
+46. Technical Section Placement
+47. Skill Section Integration
+48. Optional Work Inclusion Strategy
+49. Closing Strategy and Contact Clarity
+50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 42,
+        title: "Resume Integration Strategy",
+        content: `43. Index Structuring Logic
+44. Project Order Framework
+45. Project Hierarchy Strategy
+46. Technical Section Placement
+47. Skill Section Integration
+48. Optional Work Inclusion Strategy
+49. Closing Strategy and Contact Clarity
+50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 43,
+        title: "Index Structuring Logic",
+        content: `44. Project Order Framework
+45. Project Hierarchy Strategy
+46. Technical Section Placement
+47. Skill Section Integration
+48. Optional Work Inclusion Strategy
+49. Closing Strategy and Contact Clarity
+50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 44,
+        title: "Project Order Framework",
+        content: `45. Project Hierarchy Strategy
+46. Technical Section Placement
+47. Skill Section Integration
+48. Optional Work Inclusion Strategy
+49. Closing Strategy and Contact Clarity
+50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 45,
+        title: "Project Hierarchy Strategy",
+        content: `46. Technical Section Placement
+47. Skill Section Integration
+48. Optional Work Inclusion Strategy
+49. Closing Strategy and Contact Clarity
+50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 46,
+        title: "Technical Section Placement",
+        content: `47. Skill Section Integration
+48. Optional Work Inclusion Strategy
+49. Closing Strategy and Contact Clarity
+50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 47,
+        title: "Skill Section Integration",
+        content: `48. Optional Work Inclusion Strategy
+49. Closing Strategy and Contact Clarity
+50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 48,
+        title: "Optional Work Inclusion Strategy",
+        content: `49. Closing Strategy and Contact Clarity
+50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 49,
+        title: "Closing Strategy and Contact Clarity",
+        content: `50. Portfolio Flow and Rhythm`
+      },
+      {
+        number: 50,
+        title: "Portfolio Flow and Rhythm",
+        content: ``
+      }
+    ]
+  },
+  {
+    number: 5,
+    title: "Micro Structure of Project Presentation",
+    description: "",
+    chapters: [
+      {
+        number: 51,
+        title: "Project Overview Page Engineering",
+        content: `52. Writing Studio Briefs Professionally
+53. Concept Diagram Construction
+54. Site Analysis Framework
+55. Climate Diagram Logic
+56. Plan Drawing Standards
+57. Section Drawing Intelligence
+58. Elevation Clarity Standards
+59. Structural Representation in Academic Work
+60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 52,
+        title: "Writing Studio Briefs Professionally",
+        content: `53. Concept Diagram Construction
+54. Site Analysis Framework
+55. Climate Diagram Logic
+56. Plan Drawing Standards
+57. Section Drawing Intelligence
+58. Elevation Clarity Standards
+59. Structural Representation in Academic Work
+60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 53,
+        title: "Concept Diagram Construction",
+        content: `54. Site Analysis Framework
+55. Climate Diagram Logic
+56. Plan Drawing Standards
+57. Section Drawing Intelligence
+58. Elevation Clarity Standards
+59. Structural Representation in Academic Work
+60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 54,
+        title: "Site Analysis Framework",
+        content: `55. Climate Diagram Logic
+56. Plan Drawing Standards
+57. Section Drawing Intelligence
+58. Elevation Clarity Standards
+59. Structural Representation in Academic Work
+60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 55,
+        title: "Climate Diagram Logic",
+        content: `56. Plan Drawing Standards
+57. Section Drawing Intelligence
+58. Elevation Clarity Standards
+59. Structural Representation in Academic Work
+60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 56,
+        title: "Plan Drawing Standards",
+        content: `57. Section Drawing Intelligence
+58. Elevation Clarity Standards
+59. Structural Representation in Academic Work
+60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 57,
+        title: "Section Drawing Intelligence",
+        content: `58. Elevation Clarity Standards
+59. Structural Representation in Academic Work
+60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 58,
+        title: "Elevation Clarity Standards",
+        content: `59. Structural Representation in Academic Work
+60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 59,
+        title: "Structural Representation in Academic Work",
+        content: `60. Diagrammatic Communication Systems
+61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 60,
+        title: "Diagrammatic Communication Systems",
+        content: `61. Massing Evolution Documentation
+62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 61,
+        title: "Massing Evolution Documentation",
+        content: `62. Circulation Logic Presentation
+63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 62,
+        title: "Circulation Logic Presentation",
+        content: `63. Spatial Experience Rendering Strategy
+64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 63,
+        title: "Spatial Experience Rendering Strategy",
+        content: `64. Interior vs Exterior Representation Balance
+65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 64,
+        title: "Interior vs Exterior Representation Balance",
+        content: `65. Technical Detail Integration
+66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 65,
+        title: "Technical Detail Integration",
+        content: `66. Working Drawing Presentation for Internships`
+      },
+      {
+        number: 66,
+        title: "Working Drawing Presentation for Internships",
+        content: ``
+      }
+    ]
+  },
+  {
+    number: 6,
+    title: "Technical Benchmarking and Drawing Discipline",
+    description: "",
+    chapters: [
+      {
+        number: 67,
+        title: "Line Weight Hierarchy",
+        content: `68. Scale Discipline
+69. Dimensioning Standards
+70. Structural Awareness for Students
+71. Slab and Beam Logic Representation
+72. Wall Section Intelligence
+73. Staircase Detail Engineering
+74. Toilet Detail Standards
+75. Annotation Systems
+76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 68,
+        title: "Scale Discipline",
+        content: `69. Dimensioning Standards
+70. Structural Awareness for Students
+71. Slab and Beam Logic Representation
+72. Wall Section Intelligence
+73. Staircase Detail Engineering
+74. Toilet Detail Standards
+75. Annotation Systems
+76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 69,
+        title: "Dimensioning Standards",
+        content: `70. Structural Awareness for Students
+71. Slab and Beam Logic Representation
+72. Wall Section Intelligence
+73. Staircase Detail Engineering
+74. Toilet Detail Standards
+75. Annotation Systems
+76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 70,
+        title: "Structural Awareness for Students",
+        content: `71. Slab and Beam Logic Representation
+72. Wall Section Intelligence
+73. Staircase Detail Engineering
+74. Toilet Detail Standards
+75. Annotation Systems
+76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 71,
+        title: "Slab and Beam Logic Representation",
+        content: `72. Wall Section Intelligence
+73. Staircase Detail Engineering
+74. Toilet Detail Standards
+75. Annotation Systems
+76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 72,
+        title: "Wall Section Intelligence",
+        content: `73. Staircase Detail Engineering
+74. Toilet Detail Standards
+75. Annotation Systems
+76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 73,
+        title: "Staircase Detail Engineering",
+        content: `74. Toilet Detail Standards
+75. Annotation Systems
+76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 74,
+        title: "Toilet Detail Standards",
+        content: `75. Annotation Systems
+76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 75,
+        title: "Annotation Systems",
+        content: `76. Drawing Legibility at Print Scale
+77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 76,
+        title: "Drawing Legibility at Print Scale",
+        content: `77. Avoiding Common Technical Errors
+78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 77,
+        title: "Avoiding Common Technical Errors",
+        content: `78. Balancing Render and Drafting Exposure`
+      },
+      {
+        number: 78,
+        title: "Balancing Render and Drafting Exposure",
+        content: ``
+      }
+    ]
+  },
+  {
+    number: 7,
+    title: "Graphic System and Visual Discipline",
+    description: "",
+    chapters: [
+      {
+        number: 79,
+        title: "Grid Systems in Portfolio Design",
+        content: `80. Margin Control and White Space
+81. Typography Hierarchy
+82. Font Selection Strategy
+83. Color Discipline
+84. Monochrome vs Accent Strategy
+85. Image Placement Systems
+86. Modular Layout Logic
+87. Page Rhythm Engineering
+88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 80,
+        title: "Margin Control and White Space",
+        content: `81. Typography Hierarchy
+82. Font Selection Strategy
+83. Color Discipline
+84. Monochrome vs Accent Strategy
+85. Image Placement Systems
+86. Modular Layout Logic
+87. Page Rhythm Engineering
+88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 81,
+        title: "Typography Hierarchy",
+        content: `82. Font Selection Strategy
+83. Color Discipline
+84. Monochrome vs Accent Strategy
+85. Image Placement Systems
+86. Modular Layout Logic
+87. Page Rhythm Engineering
+88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 82,
+        title: "Font Selection Strategy",
+        content: `83. Color Discipline
+84. Monochrome vs Accent Strategy
+85. Image Placement Systems
+86. Modular Layout Logic
+87. Page Rhythm Engineering
+88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 83,
+        title: "Color Discipline",
+        content: `84. Monochrome vs Accent Strategy
+85. Image Placement Systems
+86. Modular Layout Logic
+87. Page Rhythm Engineering
+88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 84,
+        title: "Monochrome vs Accent Strategy",
+        content: `85. Image Placement Systems
+86. Modular Layout Logic
+87. Page Rhythm Engineering
+88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 85,
+        title: "Image Placement Systems",
+        content: `86. Modular Layout Logic
+87. Page Rhythm Engineering
+88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 86,
+        title: "Modular Layout Logic",
+        content: `87. Page Rhythm Engineering
+88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 87,
+        title: "Page Rhythm Engineering",
+        content: `88. Alignment Discipline
+89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 88,
+        title: "Alignment Discipline",
+        content: `89. Avoiding Graphic Noise
+90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 89,
+        title: "Avoiding Graphic Noise",
+        content: `90. Professional Minimalism
+91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 90,
+        title: "Professional Minimalism",
+        content: `91. Creating Cohesion Across Pages`
+      },
+      {
+        number: 91,
+        title: "Creating Cohesion Across Pages",
+        content: ``
+      }
+    ]
+  },
+  {
+    number: 8,
+    title: "Template Systems and Software Workflow",
+    description: "",
+    chapters: [
+      {
+        number: 92,
+        title: "Choosing Page Size",
+        content: `93. Portrait vs Landscape Strategy
+94. A4 vs A3 Logic
+95. Template Archetypes
+96. Minimal Template System
+97. Editorial Template System
+98. Technical Template System
+99. Bold Visual Template System
+100. Adobe InDesign Workflow
+101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 93,
+        title: "Portrait vs Landscape Strategy",
+        content: `94. A4 vs A3 Logic
+95. Template Archetypes
+96. Minimal Template System
+97. Editorial Template System
+98. Technical Template System
+99. Bold Visual Template System
+100. Adobe InDesign Workflow
+101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 94,
+        title: "A4 vs A3 Logic",
+        content: `95. Template Archetypes
+96. Minimal Template System
+97. Editorial Template System
+98. Technical Template System
+99. Bold Visual Template System
+100. Adobe InDesign Workflow
+101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 95,
+        title: "Template Archetypes",
+        content: `96. Minimal Template System
+97. Editorial Template System
+98. Technical Template System
+99. Bold Visual Template System
+100. Adobe InDesign Workflow
+101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 96,
+        title: "Minimal Template System",
+        content: `97. Editorial Template System
+98. Technical Template System
+99. Bold Visual Template System
+100. Adobe InDesign Workflow
+101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 97,
+        title: "Editorial Template System",
+        content: `98. Technical Template System
+99. Bold Visual Template System
+100. Adobe InDesign Workflow
+101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 98,
+        title: "Technical Template System",
+        content: `99. Bold Visual Template System
+100. Adobe InDesign Workflow
+101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 99,
+        title: "Bold Visual Template System",
+        content: `100. Adobe InDesign Workflow
+101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 100,
+        title: "Adobe InDesign Workflow",
+        content: `101. Illustrator Workflow
+102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 101,
+        title: "Illustrator Workflow",
+        content: `102. Revit Sheet Export Discipline
+103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 102,
+        title: "Revit Sheet Export Discipline",
+        content: `103. File Optimization
+104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 103,
+        title: "File Optimization",
+        content: `104. PDF Compression Strategy
+105. Naming and Version Control`
+      },
+      {
+        number: 104,
+        title: "PDF Compression Strategy",
+        content: `105. Naming and Version Control`
+      },
+      {
+        number: 105,
+        title: "Naming and Version Control",
+        content: ``
+      }
+    ]
+  },
+  {
+    number: 9,
+    title: "Application Engineering and Professional Communication",
+    description: "",
+    chapters: [
+      {
+        number: 106,
+        title: "Resume Architecture",
+        content: `107. Resume Graphic Discipline
+108. Writing Internship Emails
+109. Subject Line Strategy
+110. Cover Letter Structure
+111. LinkedIn Optimization
+112. Application Tracking System
+113. Internship Research Database
+114. Portfolio Customization Before Sending
+115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 107,
+        title: "Resume Graphic Discipline",
+        content: `108. Writing Internship Emails
+109. Subject Line Strategy
+110. Cover Letter Structure
+111. LinkedIn Optimization
+112. Application Tracking System
+113. Internship Research Database
+114. Portfolio Customization Before Sending
+115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 108,
+        title: "Writing Internship Emails",
+        content: `109. Subject Line Strategy
+110. Cover Letter Structure
+111. LinkedIn Optimization
+112. Application Tracking System
+113. Internship Research Database
+114. Portfolio Customization Before Sending
+115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 109,
+        title: "Subject Line Strategy",
+        content: `110. Cover Letter Structure
+111. LinkedIn Optimization
+112. Application Tracking System
+113. Internship Research Database
+114. Portfolio Customization Before Sending
+115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 110,
+        title: "Cover Letter Structure",
+        content: `111. LinkedIn Optimization
+112. Application Tracking System
+113. Internship Research Database
+114. Portfolio Customization Before Sending
+115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 111,
+        title: "LinkedIn Optimization",
+        content: `112. Application Tracking System
+113. Internship Research Database
+114. Portfolio Customization Before Sending
+115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 112,
+        title: "Application Tracking System",
+        content: `113. Internship Research Database
+114. Portfolio Customization Before Sending
+115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 113,
+        title: "Internship Research Database",
+        content: `114. Portfolio Customization Before Sending
+115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 114,
+        title: "Portfolio Customization Before Sending",
+        content: `115. Common Application Mistakes
+116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 115,
+        title: "Common Application Mistakes",
+        content: `116. Interview Preparation Through Portfolio
+117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 116,
+        title: "Interview Preparation Through Portfolio",
+        content: `117. Presenting Portfolio Verbally
+118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 117,
+        title: "Presenting Portfolio Verbally",
+        content: `118. Converting Internship into Long-Term Opportunity`
+      },
+      {
+        number: 118,
+        title: "Converting Internship into Long-Term Opportunity",
+        content: ``
+      }
+    ]
+  },
+  {
+    number: 10,
+    title: "Evaluation and Long-Term Growth",
+    description: "",
+    chapters: [
+      {
+        number: 119,
+        title: "Self-Evaluation Matrix",
+        content: `120. Portfolio Scoring System
+121. Firm Compatibility Scoring Model
+122. Match Score Calculation Method
+123. High-Match vs Low-Match Strategy
+124. Annual Portfolio Updating System
+125. Documenting Internship Learning
+126. Transitioning from Internship Portfolio to Thesis Portfolio
+127. Transitioning to Professional Portfolio
+128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 120,
+        title: "Portfolio Scoring System",
+        content: `121. Firm Compatibility Scoring Model
+122. Match Score Calculation Method
+123. High-Match vs Low-Match Strategy
+124. Annual Portfolio Updating System
+125. Documenting Internship Learning
+126. Transitioning from Internship Portfolio to Thesis Portfolio
+127. Transitioning to Professional Portfolio
+128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 121,
+        title: "Firm Compatibility Scoring Model",
+        content: `122. Match Score Calculation Method
+123. High-Match vs Low-Match Strategy
+124. Annual Portfolio Updating System
+125. Documenting Internship Learning
+126. Transitioning from Internship Portfolio to Thesis Portfolio
+127. Transitioning to Professional Portfolio
+128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 122,
+        title: "Match Score Calculation Method",
+        content: `123. High-Match vs Low-Match Strategy
+124. Annual Portfolio Updating System
+125. Documenting Internship Learning
+126. Transitioning from Internship Portfolio to Thesis Portfolio
+127. Transitioning to Professional Portfolio
+128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 123,
+        title: "High-Match vs Low-Match Strategy",
+        content: `124. Annual Portfolio Updating System
+125. Documenting Internship Learning
+126. Transitioning from Internship Portfolio to Thesis Portfolio
+127. Transitioning to Professional Portfolio
+128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 124,
+        title: "Annual Portfolio Updating System",
+        content: `125. Documenting Internship Learning
+126. Transitioning from Internship Portfolio to Thesis Portfolio
+127. Transitioning to Professional Portfolio
+128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 125,
+        title: "Documenting Internship Learning",
+        content: `126. Transitioning from Internship Portfolio to Thesis Portfolio
+127. Transitioning to Professional Portfolio
+128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 126,
+        title: "Transitioning from Internship Portfolio to Thesis Portfolio",
+        content: `127. Transitioning to Professional Portfolio
+128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 127,
+        title: "Transitioning to Professional Portfolio",
+        content: `128. Building a Lifelong Portfolio System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      },
+      {
+        number: 128,
+        title: "Building a Lifelong Portfolio System",
+        content: `The Portfolio as Architectural Narrative
+Architecture is not only built form. It is thought translated into space. A portfolio, therefore, is not a storage file of drawings; it is a narrative instrument that compresses years of intellectual development into a readable visual sequence.
+A strong portfolio does not begin with drawings. It begins with a position.
+It answers three silent questions:
+* What kind of architect is this person becoming?
+* What kind of problems do they gravitate toward?
+* How do they think through space, structure, climate, and context?
+When a reviewer opens a portfolio, they are not looking for decoration. They are scanning for clarity, consistency, and depth of reasoning.
+The portfolio must therefore operate as an architectural narrative — a structured story where every drawing supports a larger argument.`
+      }
+    ]
+  }
