@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -16,66 +16,39 @@ datasource db {
 
 model Firm {
   id                      String   @id @default(cuid())
-  
-  // Basic Information
   name                    String
-  normalizedName          String   // Lowercase, no punctuation for duplicate detection
+  normalizedName          String
   city                    String
   state                   String
   country                 String   @default("India")
-  
-  // People & History
   principalArchitect      String?
   yearEstablished         Int?
-  
-  // Classification - Category (NEW)
-  category                String?  // Corporate / Boutique / Interior / Sustainable / Urban
-  
-  // Classification - Scale
-  scaleCategory           String   // Solo / Small / Mid-size / Mid-Large / Large / Corporate / International
-  
-  // Classification - Tier
-  tierCategory            String   // Metro / Regional / Emerging
-  
-  // Classification - Typology
-  primaryTypology         String   // Residential / Institutional / Commercial / Urban / Interior / Mixed / Cultural / Healthcare / Hospitality
+  category                String?
+  scaleCategory           String
+  tierCategory            String
+  primaryTypology         String
   secondaryTypology       String?
-  
-  // Classification - Design
-  designOrientation       String   // Minimal / Contextual / Parametric / Corporate / Sustainable / Urban / Modernist / Contemporary / Luxury / Experimental / Climate-responsive
-  
-  // Classification - Technical
-  technicalOrientation    String   // Technical-heavy / BIM-heavy / Site-heavy / Research-heavy / Design-heavy / Execution-heavy / Material-focused / Detail-driven
-  bimIntensity            String   // Heavy / Moderate / None / Partial
-  
-  // Internship Intelligence
-  internshipPotential     String?  // High / Medium / Low
-  internshipOffered       String?  // Yes / No / Selective (NEW)
-  siteExposure            String?  // Heavy / Moderate / Low / None
-  researchIntensity       String?  // High / Moderate / Low / None
-  
-  // Application Intelligence (NEW)
-  applicationMethod       String?  // Email / Careers Page / Not Public
-  portfolioEmphasis       String?  // What to emphasize in portfolio
-  
-  // Contact Information
+  designOrientation       String
+  technicalOrientation    String
+  bimIntensity            String
+  internshipPotential     String?
+  internshipOffered       String?
+  siteExposure            String?
+  researchIntensity       String?
+  applicationMethod       String?
+  portfolioEmphasis       String?
   website                 String?
   officialEmail           String?
-  
-  // Status
   isActive                Boolean  @default(true)
   isVerified              Boolean  @default(false)
-  
-  // Metadata
-  dataSource              String?  // CSV import / Manual entry
+  dataSource              String?
   notes                   String?
   createdAt               DateTime @default(now())
   updatedAt               DateTime @updatedAt
 
-  // Relations
   tags                    FirmTag[]
   rankings                FirmRanking[]
-  
+
   @@index([name])
   @@index([city])
   @@index([state])
@@ -91,12 +64,12 @@ model Firm {
 model FirmTag {
   id              String   @id @default(cuid())
   firmId          String
-  tagCategory     String   // Scale / Style / Exposure / Software / Typology / Specialization
+  tagCategory     String
   tagValue        String
   createdAt       DateTime @default(now())
 
   firm            Firm     @relation(fields: [firmId], references: [id], onDelete: Cascade)
-  
+
   @@index([tagCategory])
   @@index([tagValue])
 }
@@ -104,20 +77,16 @@ model FirmTag {
 model FirmRanking {
   id              String   @id @default(cuid())
   firmId          String
-  rankingType     String   // National Top 100 / City Top 50 / Tier Top 20
+  rankingType     String
   rankingPosition Int?
   rankingYear     Int      @default(2024)
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
   firm            Firm     @relation(fields: [firmId], references: [id], onDelete: Cascade)
-  
+
   @@index([rankingType])
 }
-
-// ============================================
-// CHAPTER & VOLUME SYSTEM
-// ============================================
 
 model Volume {
   id              String   @id @default(cuid())
@@ -136,12 +105,9 @@ model Chapter {
   chapterNumber   Int
   title           String
   content         String?
-  
-  // AI Intelligence Fields
-  skillArea       String?  // drafting / layout / environment / detailing / rendering / concept
-  difficulty      String?  // beginner / intermediate / advanced
-  relatedChapters String?  // JSON array of related chapter numbers
-  
+  skillArea       String?
+  difficulty      String?
+  relatedChapters String?
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
@@ -150,199 +116,139 @@ model Chapter {
   images          ChapterImage[]
   references      ChapterReference[]
   assessments     UserAssessment[]
-  
+
   @@index([skillArea])
   @@index([chapterNumber])
 }
 
-// ============================================
-// GPT PROMPT SYSTEM
-// ============================================
-
 model GptPrompt {
-  id                  String   @id @default(cuid())
-  chapterId           String
-  promptType          String   // Improvement / Benchmark / Mistake / Firm Alignment / Resource
-  shortQuestion       String
-  fullPrompt          String
-  encodedUrl          String?
-  isActive            Boolean  @default(true)
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
+  id            String   @id @default(cuid())
+  chapterId     String
+  promptType    String
+  shortQuestion String
+  fullPrompt    String
+  encodedUrl    String?
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
 
-  chapter             Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  chapter       Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
 }
-
-// ============================================
-// IMAGE MANAGEMENT
-// ============================================
 
 model ChapterImage {
-  id                  String   @id @default(cuid())
-  chapterId           String?
-  imageName           String
-  imageUrl            String
-  imageCategory       String   // Concept / Plan / Section / Detail / Template
-  sourceReference     String?
-  usageStatus         String   @default("Available")
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
-
-  chapter             Chapter? @relation(fields: [chapterId], references: [id], onDelete: SetNull)
-}
-
-// ============================================
-// DOWNLOADABLE TOOLS
-// ============================================
-
-model Tool {
-  id                  String   @id @default(cuid())
-  title               String
-  description         String?
-  category            String   // Portfolio Engineering / Internship Intelligence / Design Development / Application
-  googleDriveUrl      String
-  versionNumber       String?
-  isActive            Boolean  @default(true)
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
-}
-
-// ============================================
-// FEEDBACK SYSTEM
-// ============================================
-
-model FeedbackSubmission {
-  id                  String   @id @default(cuid())
-  feedbackType        String   // General / Chapter / Firm / Tool
-  relatedVolume       Int?
-  relatedChapter      Int?
-  relatedFirmId       String?
-  userName            String?
-  userEmail           String?
-  feedbackText        String
-  status              String   @default("New")
-  adminNotes          String?
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
-}
-
-// ============================================
-// ADMIN SYSTEM
-// ============================================
-
-model AdminUser {
-  id                  String   @id @default(cuid())
-  email               String   @unique
-  passwordHash        String
-  name                String?
-  role                String   @default("Editor")
-  lastLogin           DateTime?
-  activeStatus        Boolean  @default(true)
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
-}
-
-// ============================================
-// PLATFORM SETTINGS
-// ============================================
-
-model PlatformSetting {
-  id                  String   @id @default(cuid())
-  key                 String   @unique
-  value               String
-  updatedAt           DateTime @updatedAt
-}
-
-// ============================================
-// AI REFERENCE KNOWLEDGE BASE
-// ============================================
-
-model ChapterReference {
   id              String   @id @default(cuid())
   chapterId       String?
-  
-  // Core Fields
-  title           String
-  summary         String   // AI-readable summary
-  url             String?
-  
-  // Classification
-  category        String   // example / tool / mistake / theory / tutorial / inspiration
-  source          String?  // ArchDaily / Behance / Pinterest / YouTube / etc.
-  
-  // Intelligence Tags
-  skillArea       String?  // drafting / layout / environment / detailing / rendering / concept
-  firmRelevance   String?  // corporate / boutique / sustainable / interior / all
-  difficulty      String?  // beginner / intermediate / advanced
-  
-  // Chapter Linking
-  chapterTags     String?  // JSON array of chapter numbers this relates to
-  
-  // Metadata
-  thumbnailUrl    String?
-  isActive        Boolean  @default(true)
+  imageName       String
+  imageUrl        String
+  imageCategory   String
+  sourceReference String?
+  usageStatus     String   @default("Available")
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
   chapter         Chapter? @relation(fields: [chapterId], references: [id], onDelete: SetNull)
-  
+}
+
+model Tool {
+  id             String   @id @default(cuid())
+  title          String
+  description    String?
+  category       String
+  googleDriveUrl String
+  versionNumber  String?
+  isActive       Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model FeedbackSubmission {
+  id             String   @id @default(cuid())
+  feedbackType   String
+  relatedVolume  Int?
+  relatedChapter Int?
+  relatedFirmId  String?
+  userName       String?
+  userEmail      String?
+  feedbackText   String
+  status         String   @default("New")
+  adminNotes     String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model AdminUser {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String?
+  role         String   @default("Editor")
+  lastLogin    DateTime?
+  activeStatus Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model PlatformSetting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+model ChapterReference {
+  id            String   @id @default(cuid())
+  chapterId     String?
+  title         String
+  summary       String
+  url           String?
+  category      String
+  source        String?
+  skillArea     String?
+  firmRelevance String?
+  difficulty    String?
+  chapterTags   String?
+  thumbnailUrl  String?
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  chapter       Chapter? @relation(fields: [chapterId], references: [id], onDelete: SetNull)
+
   @@index([category])
   @@index([skillArea])
   @@index([firmRelevance])
 }
 
-// ============================================
-// USER AI PROFILE & MEMORY
-// ============================================
-
 model UserAIProfile {
-  id                  String   @id @default(cuid())
-  sessionId           String   @unique
-  
-  // Firm Context
-  selectedFirmType    String?  // Corporate / Boutique / Sustainable / Interior
-  selectedFirmId      String?
-  
-  // Skill Profile
-  skillProfile        String?  // JSON object of skill ratings
-  
-  // Learning History
-  chaptersVisited     String?  // JSON array of chapter numbers
-  referencesViewed    String?  // JSON array of reference IDs
-  
-  // AI Memory
-  weakAreas           String?  // JSON array of weak skill areas
-  strongAreas         String?  // JSON array of strong skill areas
-  matchScore          Float?   @default(0)
-  
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
-  
+  id               String   @id @default(cuid())
+  sessionId        String   @unique
+  selectedFirmType String?
+  selectedFirmId   String?
+  skillProfile     String?
+  chaptersVisited  String?
+  referencesViewed String?
+  weakAreas        String?
+  strongAreas      String?
+  matchScore       Float?   @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
   @@index([sessionId])
 }
 
-// ============================================
-// USER SELF-ASSESSMENT
-// ============================================
-
 model UserAssessment {
-  id                  String   @id @default(cuid())
-  chapterId           String
-  sessionId           String
-  
-  // Ratings (1-5)
-  clarityRating       Int?     // Understanding of concepts
-  skillRating         Int?     // Current skill level
-  applicationRating   Int?     // Ability to apply
-  
-  // Notes
-  userNotes           String?
-  
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
+  id                String   @id @default(cuid())
+  chapterId         String
+  sessionId         String
+  clarityRating     Int?
+  skillRating       Int?
+  applicationRating Int?
+  userNotes         String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
 
-  chapter             Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
-  
+  chapter           Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+
   @@index([chapterId])
   @@index([sessionId])
 }
